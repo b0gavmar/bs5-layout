@@ -8,20 +8,52 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
+    <style>
+      .container {
+        height: 30vh;
+      }
+    </style>
   </head>
   <body>
-    <div class="container 30vh border">
+    <div class="container border">
       <div class="row border m-2">
         <div class="col border m-2">Column1</div>
         <div class="col border m-2">Column2</div>
         <div class="col border m-2">Column3</div>
       </div>
     </div>
-    <div class="container 30vh bg-info">
+
+    <div class="container bg-info">
       <div class="row m-2 text-light">
         <div class="col m-2 bg-primary">Column1</div>
         <div class="col m-2 bg-primary">Column2</div>
         <div class="col m-2 bg-primary">Column3</div>
+      </div>
+    </div>
+
+    <div class="container border mt-2 overflow-auto">
+      <div class="row border m-2 g-lg-0">
+        <div class="col-lg border m-2">Column1</div>
+        <div class="col-lg border m-2">Column2</div>
+        <div class="col-lg border m-2">Column3</div>
+      </div>
+      <div class="row border m-2 g-xl-0">
+        <div class="col-xl border m-2">Column1</div>
+        <div class="col-xl border m-3">Column2</div>
+        <div class="col-xl border m-4">Column3</div>
+      </div>
+    </div>
+
+    <div class="container border bg-secondary mt-2">
+      <div class="row bg-danger text-light m-2">
+        <div class="col-md m-2 bg-primary">Column1</div>
+        <div class="col-md m-2 bg-success">Column2</div>
+        <div class="col-md m-2  bg-primary">Column3</div>
+      </div>
+      <div class="row bg-warning text-dark m-2">
+        <div class="col-xl m-2 bg-info">Column1</div>
+        <div class="col-xl m-2 bg-success">Column2</div>
+        <div class="col-xl m-2 bg-info">Column3</div>
       </div>
     </div>
   </body>
